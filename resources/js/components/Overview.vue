@@ -22,7 +22,7 @@ import Dashboard from '@uppy/dashboard';
 import Tus from '@uppy/tus';
 import { sha256 } from 'js-sha256';
 import { emitter } from '@/cp.js';
-import UppyBunnyCreator from '@/Components/UppyBunnyCreator.js';
+import UppyBunnyCreator from '@/components/UppyBunnyCreator.js';
 
 export default {
     data() {
