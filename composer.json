@@ -1,5 +1,5 @@
 {
-    "name": "laborb/bunny-stream",
+    "name": "kemp/bunny-stream",
     "description": "Upload and embed videos from Bunny Stream",
     "type": "statamic-addon",
     "keywords": ["statamic-addon","video","hosting","streaming","bunny.net"],
@@ -16,6 +16,10 @@
             "email": "jf@laborb.de",
             "homepage": "https://laborb.de",
             "role": "Developer"
+        },
+        {
+            "name": "Steven Kemp",
+            "role": "Maintainer"
         }
     ],
     "require": {
