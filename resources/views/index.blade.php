@@ -3,7 +3,7 @@
 
 @section('content')
     <overview
-        title="Videobrowser"
+        id="Videobrowser"
         api="{{ config('statamic.bunny.apiKey') }}"
         library="{{ config('statamic.bunny.libraryId') }}"
         hostname="{{ config('statamic.bunny.hostname') }}"
