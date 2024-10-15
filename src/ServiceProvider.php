@@ -21,7 +21,6 @@ class ServiceProvider extends AddonServiceProvider
 
     protected $tags = [
         \Laborb\BunnyStream\Tags\BunnyVideo::class,
-        \Laborb\BunnyStream\Tags\VideoStyles::class,
     ];
 
     public function bootAddon()
