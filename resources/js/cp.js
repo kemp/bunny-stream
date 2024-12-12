@@ -1,7 +1,6 @@
 import Overview from './components/Overview.vue';
 import Videobrowser from './components/Videobrowser.vue';
 import Settings from './components/Settings.vue';
-import Fieldtype from './components/fieldtypes/Bunny.vue';
 
 import mitt from 'mitt'
 
@@ -14,5 +13,4 @@ Statamic.booting(() => {
     Statamic.$components.register('overview', Overview);
     Statamic.$components.register('videobrowser', Videobrowser);
     Statamic.$components.register('video-settings', Settings);
-    Statamic.$components.register('bunny-fieldtype', Fieldtype);
 });
